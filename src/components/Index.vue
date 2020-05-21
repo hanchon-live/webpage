@@ -357,6 +357,40 @@ mounted() {
     right: 500px;
     bottom: 0;
     }
+    @media (max-width: 1600px) {
+        .distortion{
+            right: 250px;
+        }
+        body{
+            overflow: scroll;
+        }
+    }
+    @media (max-width: 1400px) {
+        .distortion{
+            right: 0px;
+        }
+        body{
+            overflow: scroll;
+        }
+    }
+    @media (max-width: 1100px) {
+        .distortion{
+            right: -300px;
+        }
+        body{
+            overflow: scroll;
+        }
+    }
+    @media (max-width: 768px) {
+        .distortion{
+            margin-top:1000px;
+            position: relative;
+            left: 200px;
+        }
+        body{
+            overflow: scroll;
+        }
+    }
 
 
     /* OVERLAY 
