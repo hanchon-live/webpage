@@ -43,7 +43,7 @@ body {
   background: #f1f3f5;
   widows: 100%;
   width: 100%;
-  /* overflow: hidden; */
+  overflow-x: hidden;
 }
 
 @media screen and (max-width: 360px) {
