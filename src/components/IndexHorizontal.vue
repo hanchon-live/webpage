@@ -23,7 +23,7 @@
         
         <!-- SOCIAL MEDIA 
         =============================== -->
-        <div class="media">
+        <!-- <div class="media">
             <ul class="ul-header">
             <li>twitch</li>
             <li>twitter</li>
@@ -31,7 +31,7 @@
             <li>docs</li>
             <li>github</li>
             </ul>
-        </div>
+        </div> -->
         
         <Logo />
         
@@ -44,7 +44,7 @@
         
         <!-- DISTORTION 
         =============================== -->
-        <div class="distortion">
+        <!-- <div class="distortion">
             <div class="col">
                 <div class="row">
                     <h3>Bitcoin cash Testnet:</h3>
@@ -80,14 +80,15 @@
                 </div>
 
             </div>
-            <!-- <img src="https://www.dropbox.com/s/827kuldqiqfpqlg/02.png?raw=1" alt=""> -->
-            <!-- <img src="../assets/background.png" alt=""> -->
-        </div>
+        </div> -->
 
     </div>
 </template>
 
 <style lang="scss">
+    .navbar {
+        padding-bottom: 100px;
+    }
     .ul-header {
         list-style-type: none;
     }
