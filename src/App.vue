@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;900&amp;display=swap" rel="stylesheet">
     <IndexHorizontal />
     <!-- <img alt="Vue logo" src="./assets/logo.png">
     <HelloWorld msg="Welcome to Your Vue.js App"/> -->
@@ -42,7 +43,7 @@ body {
   background: #f1f3f5;
   widows: 100%;
   width: 100%;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 @media screen and (max-width: 360px) {
