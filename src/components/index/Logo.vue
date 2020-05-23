@@ -1,7 +1,7 @@
 <template>
     <div class="text">
         <h1><span>Hanchon</span></h1>
-        <h2>Live</h2>
+        <h2 class="yellow">Live</h2>
         <!-- <h3>
             <span>Blockchain <br /> Tools </span>
         </h3> -->
@@ -37,7 +37,6 @@
             position: relative;
             top: -9rem;
             left: 15.3rem;
-            color: #fcc419;
             z-index: -1;
             font-size: 10rem;
             opacity: 1;

@@ -35,6 +35,7 @@
         
         <Logo />
         
+        <Cards />
         <!-- SPONSOR 
         =============================== -->
         <!-- <div class="sponsor">
@@ -111,11 +112,13 @@
 <script>
 import Loading from './index/Loading.vue'
 import Logo from './index/Logo.vue'
+import Cards from './index/Cards.vue'
 export default {
     name:'IndexHorizontal',
     components: {
         Loading,
-        Logo
+        Logo,
+        Cards
     },
     mounted() {
         Loading.activate()

@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;900&amp;display=swap" rel="stylesheet">
+    <script type="module" src="https://unpkg.com/ionicons@5.0.0/dist/ionicons/ionicons.esm.js"></script>
     <IndexHorizontal />
     <!-- <img alt="Vue logo" src="./assets/logo.png">
     <HelloWorld msg="Welcome to Your Vue.js App"/> -->
@@ -35,6 +36,14 @@ export default {
 }
 @-ms-viewport {
 		width: device-width;
+}
+
+.yellow {
+  color: #fcc419;
+}
+
+.maincolor {
+  color: #2c3e50; 
 }
 
 body {
