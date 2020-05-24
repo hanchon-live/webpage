@@ -23,7 +23,8 @@
 
 <style lang="scss" scope>
     .text {
-        height: 25rem;
+        padding-top: 1.5rem;
+        height: 23rem;
         h1 {
             text-align: center;
             font-size: 10rem;

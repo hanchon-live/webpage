@@ -11,15 +11,15 @@
         
         <!-- NAVBAR 
         =============================== -->
-        <div class="navbar">
+        <!-- <div class="navbar">
             <div class="menu">
-            <!-- <ion-icon name="menu-outline"></ion-icon>
+            <ion-icon name="menu-outline"></ion-icon>
             </div>
             <div class="lang">Eng</div>
             <div class="search">
-            <ion-icon name="search-outline"></ion-icon> -->
+            <ion-icon name="search-outline"></ion-icon> 
             </div>
-        </div>
+        </div> -->
         
         <!-- SOCIAL MEDIA 
         =============================== -->
@@ -87,26 +87,7 @@
 </template>
 
 <style lang="scss">
-    .navbar {
-        padding-bottom: 100px;
-    }
-    .ul-header {
-        list-style-type: none;
-    }
 
-    .media {
-        ul {
-            position: relative;
-            li {
-                font-size: 12px;
-                font-weight: 600;
-                letter-spacing: 2px;
-                display: inline-block;
-                padding: 0 30px;
-                text-transform: uppercase;
-            }
-        }
-    }
 </style>
 
 <script>
