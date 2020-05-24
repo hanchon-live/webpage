@@ -2,37 +2,24 @@
   <div id="app">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;900&amp;display=swap" rel="stylesheet">
     <script type="module" src="https://unpkg.com/ionicons@5.0.0/dist/ionicons/ionicons.esm.js"></script>
-    <IndexHorizontal />
-    <!-- <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/> -->
+    <Index />
   </div>
 </template>
 
 <script>
-// import HelloWorld from './components/HelloWorld.vue'
-// import Header from './components/Header.vue'
-// import Index from './components/Index.vue'
-import IndexHorizontal from './components/IndexHorizontal.vue'
+import Index from './components/Index.vue'
 
 export default {
   name: 'App',
   components: {
-    // HelloWorld,
-    // Header,
-    // Index,
-    IndexHorizontal
+    Index
   }
 }
 </script>
 
 <style>
 #app {
-  /* font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;*/
   color: #2c3e50; 
-  /* margin-top: 60px; */
 }
 @-ms-viewport {
 		width: device-width;
@@ -69,21 +56,5 @@ html {
 
 *, *:before, *:after {
   box-sizing: inherit;
-}
-
-.color-grey {
-  color: #dddfd4
-}
-
-.color-yellow {
-  color: #fae598;
-}
-
-.color-lightblue{
-  color: #3fb0ac
-}
-
-.color-darkblue{
-  color: #173e43
 }
 </style>

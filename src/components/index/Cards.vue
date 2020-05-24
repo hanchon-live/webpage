@@ -1,6 +1,10 @@
 <template>
   <b-container fluid>
     <b-row>
+    <!-- <li>Faucet (nodejs)</li>
+    <li>Upload files (python)</li>
+    <li>Tx sender (nodejs)</li>
+    <li>Forks watchet (nodejs)</li> -->
       <Card
         :name="cards.socials.name"
         :subtitle="cards.socials.subtitle"

@@ -1,17 +1,11 @@
 <template>
-    <div class="text">
+    <div class="logo">
         <h1><span>Hanchon</span></h1>
         <h2 class="yellow">Live</h2>
-        <!-- <h3>
-            <span>Blockchain <br /> Tools </span>
-        </h3> -->
         <h3>
             Blockchain
         </h3>
         <h3 class="secondh3">Tools</h3>
-        <!-- <h4>
-            <span>Collection of useful programs and scripts  <br /> to interact with blockchains.</span>
-        </h4> -->
         <h4>
             Collection of useful programs and scripts
         </h4>
@@ -22,7 +16,7 @@
 </template>
 
 <style lang="scss" scope>
-    .text {
+    .logo {
         padding-top: 1.5rem;
         height: 23rem;
         h1 {
@@ -54,8 +48,6 @@
             overflow: hidden;
         }
         .secondh3 {
-            // left: 11.45rem;
-            // top: -11.5rem;
             left: 19.7rem;
             top: -12rem;
         }
@@ -68,14 +60,13 @@
             position: relative;
             overflow: hidden;
             line-height: 1;
-            // height: 50px;
         }
         .secondh4 {
             left: 18.2rem;
         }
     }
     @media screen and (max-width: 800px) {
-    .text {
+    .logo {
         height: 21rem;
         h1 {
                 font-size:8rem;
@@ -107,7 +98,7 @@
     }
     }
     @media screen and (max-width: 640px) {
-    .text {
+    .logo {
         height: 16rem;
         h1 {
             font-size:6rem;
@@ -139,7 +130,7 @@
     }
     }
     @media screen and (max-width: 470px) {
-    .text {
+    .logo {
         height: 15rem;
         h1 {
             font-size:5rem;
@@ -171,7 +162,7 @@
     }
     }
     @media screen and (max-width: 400px) {
-    .text {
+    .logo {
         height: 13rem;
         h1 {
             font-size:4rem;
@@ -209,28 +200,28 @@ import {gsap} from 'gsap';
 export default {
     name:'Logo',
     activate() {
-    gsap.from(".text h1", {
+    gsap.from(".logo h1", {
         duration: 1.5,
         delay: 1,
         y: "100%",
         ease: "expo.inOut",
     });
 
-    gsap.from(".text h3", {
+    gsap.from(".logo h3", {
         duration: 1.5,
         delay: 1.2,
         y: "400%",
         ease: "expo.inOut",
     });
 
-    gsap.from(".text h4", {
+    gsap.from(".logo h4", {
         duration: 1.5,
         delay: 1.3,
         y: "600%",
         ease: "expo.inOut",
     });
 
-    gsap.from(".text h2", {
+    gsap.from(".logo h2", {
         duration: 1.5,
         delay: 1.5,
         opacity: 0,
