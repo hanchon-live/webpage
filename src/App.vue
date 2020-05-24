@@ -1,21 +1,17 @@
 <template>
   <div id="app">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;900&amp;display=swap" rel="stylesheet">
+    <script type="module" src="https://unpkg.com/ionicons@5.0.0/dist/ionicons/ionicons.esm.js"></script>
     <Index />
-    <!-- <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/> -->
   </div>
 </template>
 
 <script>
-// import HelloWorld from './components/HelloWorld.vue'
-// import Header from './components/Header.vue'
 import Index from './components/Index.vue'
 
 export default {
   name: 'App',
   components: {
-    // HelloWorld,
-    // Header,
     Index
   }
 }
@@ -23,27 +19,42 @@ export default {
 
 <style>
 #app {
-  /* font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50; */
-  /* margin-top: 60px; */
+  color: #2c3e50; 
+}
+@-ms-viewport {
+		width: device-width;
 }
 
-.color-grey {
-  color: #dddfd4
+.yellow {
+  color: #fcc419;
 }
 
-.color-yellow {
-  color: #fae598;
+.maincolor {
+  color: #2c3e50; 
 }
 
-.color-lightblue{
-  color: #3fb0ac
+body {
+  -ms-overflow-style: scrollbar;
+  font-family: "Poppins", sans-serif;
+  background: #f1f3f5;
+  widows: 100%;
+  width: 100%;
+  overflow-x: hidden;
 }
 
-.color-darkblue{
-  color: #173e43
+@media screen and (max-width: 360px) {
+
+  html, body {
+    min-width: 320px;
+  }
+
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
 }
 </style>
