@@ -24,4 +24,4 @@ jobs:
           git add -A
           git commit -m "Build"
           echo "hanchon.live" > CNAME
-          git push -f https://hanchon:${{ secrets.GITHUB_TOKEN }}github.com/hanchon-live/webpage.git master:gh-pages
+          git push -f https://hanchon:${{ secrets.GITHUB_TOKEN }}@github.com/hanchon-live/webpage.git master:gh-pages
