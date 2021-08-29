@@ -19,6 +19,8 @@ jobs:
           npm run build
           cd dist
           git init
+          git config --global user.email "guillermo.paoletti@gmail.com"
+          git config --global user.name "Hanchon"
           git add -A
           git commit -m "Build"
           echo "hanchon.live" > CNAME
