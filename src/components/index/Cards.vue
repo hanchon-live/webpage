@@ -1,16 +1,6 @@
 <template>
   <b-container class="pt-3" fluid>
     <b-row>
-    <!-- <li>Faucet (nodejs)</li>
-    <li>Upload files (python)</li>
-    <li>Tx sender (nodejs)</li>
-    <li>Forks watchet (nodejs)</li> -->
-      <Card
-        :name="cards.socials.name"
-        :subtitle="cards.socials.subtitle"
-        :icon="cards.socials.icon"
-        :buttons="cards.socials.buttons"
-      />
       <Card
         :name="cards.testnet.name"
         :subtitle="cards.testnet.subtitle"
@@ -23,6 +13,12 @@
         :icon="cards.hanchond.icon"
         :buttons="cards.hanchond.buttons"
       />
+      <Card
+        :name="cards.socials.name"
+        :subtitle="cards.socials.subtitle"
+        :icon="cards.socials.icon"
+        :buttons="cards.socials.buttons"
+      />
     </b-row>
   </b-container>
 </template>
@@ -31,9 +27,9 @@
 import Card from "./Card.vue";
 export default {
   components: {
-    Card
+    Card,
   },
-  data: function() {
+  data: function () {
     return {
       cards: {
         socials: {
@@ -42,65 +38,64 @@ export default {
           icon: "chatbox-ellipses-outline",
           buttons: [
             {
+              text: "Paolettips (Guides and Tips)",
+              dest: "https://paolettips.com",
+            },
+            {
               text: "github",
-              dest: "https://github.com/hanchon"
-            },
-            {
-              text: "discord",
-              dest: "https://discord.gg/4RKzBFd"
-            },
-            {
-              text: "twitch",
-              dest: "https://www.twitch.tv/elhachon"
+              dest: "https://github.com/hanchon",
             },
             {
               text: "twitter",
-              dest: "https://twitter.com/gepaoletti"
-            }
-          ]
+              dest: "https://twitter.com/gepaoletti",
+            },
+            {
+              text: "twitch",
+              dest: "https://www.twitch.tv/elhachon",
+            },
+          ],
         },
         testnet: {
-          name: "Testnet",
-          subtitle: "Utils running on top of the Bitcoin Cash Testnet (TBCH).",
+          name: "Ethermint",
+          subtitle: "Utils running on Ethermint testnet network.",
           icon: "cube-outline",
           buttons: [
             {
-              text: "Run your own testnet",
-              dest:
-                "https://docs.hanchon.live/bch-testnet-environment/introduction"
+              text: "Ethermint Testnet Faucet",
+              dest: "https://faucet.hanchon.live/",
             },
             {
-                text: "File hash uploader",
-                dest:"https://github.com/hanchon/cash_file_uploader"
+              text: "Explorer (Coming soon)",
+              dest: "#",
             },
             {
-              text: "faucet (coming soon)",
-              dest: "#"
+              text: "Deploy Faucet Guide",
+              dest: "https://paolettips.com/blog/2021/08/26/how-to-deploy-a-ethermint-faucet/",
             },
             {
-              text: "explorer (coming soon)",
-              dest: "#"
-            }
-          ]
+              text: "Build Ethermint Node",
+              dest: "https://paolettips.com/blog/2021/07/30/ethermint-build/",
+            },
+          ],
         },
         hanchond: {
-          name: "Bitcoin Cash Node",
-          subtitle: "BCH node on python",
+          name: "Bitcoin Cash",
+          subtitle: "Utils for Bitcoin Cash Testnet (TBCH).",
           icon: "hourglass-outline",
           buttons: [
             {
-              text: "Github code (coming soon)",
-              dest: "#"
+              text: "Run your own testnet",
+              dest: "https://docs.hanchon.live/bch-testnet-environment/introduction",
             },
             {
-              text: "Docker image (coming soon)",
-              dest: "#"
-            }
-          ]
-        }
-      }
+              text: "File hash uploader",
+              dest: "https://github.com/hanchon/cash_file_uploader",
+            },
+          ],
+        },
+      },
     };
-  }
+  },
 };
 </script>
 
